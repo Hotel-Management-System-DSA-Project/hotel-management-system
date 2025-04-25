@@ -19,6 +19,11 @@ struct Custom {
     int time;
 };
 
+struct Service {
+    int a;
+    int b;
+};
+
 int main () {
     cout << "Du an quan ly khach san";
     return 0;
