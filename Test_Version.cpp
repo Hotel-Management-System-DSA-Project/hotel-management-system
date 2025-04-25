@@ -18,3 +18,8 @@ struct Custom {
     int identify;
     int time;
 };
+
+int main () {
+    cout << "Du an quan ly khach san";
+    return 0;
+}
