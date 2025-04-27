@@ -3,7 +3,7 @@
 using namespace std;
 
 enum roomStatus {ready, wait, inUse};
-enum Type {vip, single, double};
+enum Type {vip, single, doubles};
 
 struct Room {
     int ID;
