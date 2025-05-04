@@ -12,6 +12,16 @@ struct Room {
     Type type;
 };
 
+struct roomNode {
+    Room room;
+    roomNode *next, *prev;
+};
+
+void initRoom(roomNode& R) {
+    R.next = NULL;
+
+}
+
 struct Custom {
     char name[20];
     int age;
