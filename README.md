@@ -26,15 +26,28 @@ Dự án xây dựng hệ thống quản lý khách sạn bằng ngôn ngữ C++
 ## 🗂 Phân chia công việc
 - Phạm Triệu Minh:    +Tạo struct phòng và khách
                       +Quản lý danh sách phòng và khách (dùng linkedlist)
+                      +Viết các hàm: -Hiển thị danh sách phòng
+                                     -Tìm phòng theo số phòng
+                                     -Hiển thị thông tin phòng
+                                     -Sắp xếp phòng theo giá
+                                     
 
-- Lê Tiến Hiếu:       +Xây dựng hàm đặt phòng
-                      +Kiểm tra trạng thái phòng
-                      +Gán khách vào phòng
+- Lê Tiến Hiếu:       +Hàm thêm khách hàng vào hàng đợi
+                      +Hàm lấy khách hàng ra khỏi hàng đợi
+                      +Hàm đặt phòng
+                      +Hàm hiển thị danh sách khách hàng ( Duyệt )
+                      +Hàm tìm kiếm khách hàng theo ID rồi in ra thông tin ứng với ID đấy
 
-- Nguyễn Việt Trường: +Cập nhât trạng thái phòng
-                      +In hóa đơn
-                      +Tính giá dịch vụ
+- Nguyễn Việt Trường: +Xây dựng hàm trả phòng (Đầu vào là ID khách hàng)
+                                             - Duyệt danh sách khách hàng
+                                             - In hóa đơn
+                                             - Cập nhật lại trạng thái phòng
+                                             - Xóa khách hàng 
+                                             - Kiểm tra danh sách chờ
+                      
 
 - Vũ Hương Thảo:      +Đánh giá khách hàng
-                      +Lưu và hiển thị lịch sử
-                      +Xóa dữ liệu khách khỏi hiện tại
+                      +Lưu và hiển thị lịch sử của các thao tác (Thêm vào stack)
+                      +Undo thao tác
+                      +Giải phóng bộ nhớ
+                      +Viết báo cáo
