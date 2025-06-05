@@ -28,10 +28,10 @@ Dự án xây dựng hệ thống quản lý khách sạn bằng ngôn ngữ C++
 ## 🗂 Phân chia công việc
 Phạm Triệu Minh (20234026) - (Trưởng nhóm)
                                 +Tạo struct quản lý phòng, khách hàng và khách sạn, phòng chờ
-                                +Hàm khởi tạo cho khách, phòng, khách sạn, phòng chờ.
+                                +Hàm khởi tạo cho khách, phòng, khách sạn, phòng chờ
                                 +Hàm trong chức năng quản lý phòng: Thêm phòng mới, sắp xếp phòng theo giá, tìm kiếm phòng theo tên và tìm kiếm phòng theo kiểu, hiển thị thông tin 
-                                 phòng.
-                                +Giải phóng bộ nhớ.
+                                 phòng
+                                +Giải phóng bộ nhớ
                                 +Viết giao diện và xử lý hàm main
                                 +Kiểm thử, ghép và hoàn thiện code
 
